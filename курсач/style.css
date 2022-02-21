@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.vid-tovara .active{
+    background: #395c48;
+    color: white;
+    transform: scale(1.15);
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #F2F2F2;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-width: 100%;
+    display: flex;
+    padding-top: 10px;
+    height: 65px;
+    justify-content: space-around;
+}
+
+.log{
+    font-family: Roboto Mono;
+    font-style: italic;
+    font-weight: bold;
+    cursor:default;
+    font-size: 42px;
+    line-height: 55px;
+    background: linear-gradient(180deg, #4D886B 0%, #E1E1E1 22.92%, rgba(10, 0, 0, 0.961107) 50.52%, rgba(19, 16, 16, 0.125) 99.99%, rgba(64, 93, 199, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+    font-family: 'Roboto Mono';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.products{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color:#FF0000;
+    padding-bottom: 2%;
+}
+
+.vid-tovara{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.vid-tovara li{
+    width: 184px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D3FFC4;
+    border-radius: 13px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 18px;
+    transition: all 1s;
+    margin-bottom: 15px;
+}
+
+.vid-tovara li:hover{
+    background: #395c48;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.15);
+    transition: all 1s;
+}
+
+.prod-ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.prod-ul li{
+    margin-top: 75px;
+    width: 323px;
+    height: 457px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.44);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.product-name{
+    width: 85%;
+    font-family: Roboto Mono;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #646363;
+}
+
+.product-btn-info{
+    background: #C4C4C4;
+    border-radius: 10px;
+    width: 227px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-family: 'Roboto Mono';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    transition: all 2s;
+    color: #000000;
+}
+
+
+.product-btn-info:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 2s;
+}
+
+.prod-ul li:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.product-card {
+    width: 421px;
+    height: 673px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.44);
+    border-radius: 12px;
+    margin-top: 40px;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+.container{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+  
+.col-md-10{
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.card-1{
+    position: relative;
+    padding: 5px 5px 5px 5px;
+    border-radius: 12px;
+    left: 1%;
+    background-color: #ffffff;
+}
+
+.card-2{
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.col-md-2{
+    width: 29%;
+}
+
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+
+hr{
+    width: 90%;
+}
+#price-range-form{
+    display: flex;
+    justify-content: space-around;
+}
+
+.price{
+    width: 228px;
+    height: 69.15px;
+    background: rgba(8, 14, 15, 0.44);
+    border-radius: 22px;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.desc{
+    position: relative;
+    margin-left: 20px;
+    width: 390px;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
