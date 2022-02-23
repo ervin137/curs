@@ -1,5 +1,5 @@
 let min_price = 0;
-let max_price = 111000;
+let max_price = 3990;
 
 $(document).ready(function () {
   showAllItems(); 
@@ -20,30 +20,27 @@ $("#max-price").on("change mousemove", function () {
 let category_items = [
   {
     id: 1,
-    category_id: 8,
-    price: 111000,
-    title: "15.6' НОУТБУК DREAM MACHINES RG3050-15RU20",
+    price: 1499,
+    title: "МЫШЬ A4TECH BLOODY Q82 ОПТИЧЕСКАЯ, ПРОВОДНАЯ, USB",
     thumbnail:
-      "img/dream-machine-laptop.png",
-    description: "• ГАРАНТИЯ: 1 ГОД <br> • ТИП МАТРИЦЫ: IPS <br>• ПРОЦЕССОР: INTEL COTE I5 11400H <br>• ВИДЕОАДАПТЕР GEFORCE RTX 3050 4GB    <br>• ДИАГОНАЛЬ: 15,6' ДЮЙМОВ<br>• РАЗРЕШЕНИЕ: FULL HD [1920X1080]    <br>• RAM: 16GB SO-DIMM DDR4"
+      "img/mouse.png",
+    description: "• ГАРАНТИЯ: 12 МЕСЯЦЕВ <br> • ТИП: ПРОВОДНАЯ <br>• Общее количество кнопок: 8 <br>• Максимальное разрешение датчика: 3200dpi    <br>• Тип сенсора мыши: оптический<br>• Длина кабеля: 1.2м    <br>"
   },
   {
     id: 2,
-    category_id: 8,
-    price: 80000,
-    title: "15.6' НОУТБУК ASUS TUF GAMING FX506LH-HN004",
+    price: 3299,
+    title: "ИГРОВАЯ СТЕРЕОГАРНИТУРА PANTEON GHP-280",
     thumbnail:
-      "img/tug-gaming.png",
-      description: "• ГАРАНТИЯ: 1 ГОД <br> • ТИП МАТРИЦЫ: IPS<br>• ПРОЦЕССОР: INTEL COTE I5 10300H<br>• ВИДЕОАДАПТЕР GEFORCE GTX 1650 4GB<br>• ДИАГОНАЛЬ: 15,6' ДЮЙМОВ<br>• РАЗРЕШЕНИЕ: FULL HD [1920X1080]<br>• RAM: 8GB SO-DIMM DDR4"
+      "img/headphones.png",
+      description: "• ГАРАНТИЯ: 12 МЕСЯЦЕВ <br> • ТИП: ПРОВОДНАЯ <br>• Формат звуковой схемы: 7.1 Virtual<br>• Основной цвет наушников: серый 4GB<br>• Подсветка: Разноцветная<br>• Микрофон : Есть <br>• Чувствительность микрофона: -38 дБ"
   },
   {
     id: 3,
-    category_id: 8,
-    price: 89000,
-    title: "17.3' НОУТБУК MSI GF75 10UC-048XRU",
+    price: 3990,
+    title: "КОВРИК GAMING MOUSE PAD RGB GMS-X3",
     thumbnail:
-      "img/msi-laptop.png",
-      description: "• ГАРАНТИЯ: 1 ГОД <br> • ТИП МАТРИЦЫ: IPS <br> • ПРОЦЕССОР: INTEL COTE I5 10500H <br> • ВИДЕОАДАПТЕР GEFORCE RTX a 4GB <br> • ДИАГОНАЛЬ: 17,3' ДЮЙМОВ<br> • РАЗРЕШЕНИЕ: FULL HD [1920X1080]<br> • RAM: 8GB SO-DIMM DDR4"
+      "img/kovrik.png",
+      description: "• ГАРАНТИЯ: 12 МЕСЯЦЕВ <br> • Материал поверхности: пластик <br> • Материал основания: резина <br> • Размеры (ДхШхТ): 359x299x5 мм <br> • Подсветка: Есть <br> "
   }
 ];
 

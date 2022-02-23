@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="libs/jquery-3.6.0.min.js">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="log">
+            <a href="index.html">ErvinOFF</a> 
+        </div>
+        <nav>
+            <ul>
+                <li>О нас</li>
+                <li>Покупателю</li>
+                <li>Сотрудничество</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="laptop">Комплектующие</div>
+    <div class="container">
+        <div class="row">
+          <div class=" col-12 col-md-2">
+            <div class="card-1 px-2">
+              <h2 class="text-center">Фильтр товара</h2>
+              <hr>
+              <h4>Цена:</h4>
+              <div class="card-body">
+                <form id="price-range-form">
+                  <label for="min-price" class="form-label">Min price: </label>
+                  <span id="min-price-txt">0 ₽</span>
+                  <input type="range" class="form-range" min="0" max="66499" id="min-price" step="1" value="0">
+                  <label for="max-price" class="form-label">Max price: </label>
+                  <span id="max-price-txt">66500 ₽</span>
+                  <input type="range" class="form-range" min="1" max="66500" id="max-price" step="1" value="66500">
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-10">
+            <div class="card-2">
+              <div class="card-body">
+                <div class="row-2" id="display-items-div">
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <script src="libs/jquery-3.6.0.min.js"></script>
+      <script src="js/script-complect.js"></script>
+    </body>
+</html>

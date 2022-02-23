@@ -1,5 +1,5 @@
 let min_price = 0;
-let max_price = 111000;
+let max_price = 66500;
 
 $(document).ready(function () {
   showAllItems(); 
@@ -21,29 +21,20 @@ let category_items = [
   {
     id: 1,
     category_id: 8,
-    price: 111000,
-    title: "15.6' НОУТБУК DREAM MACHINES RG3050-15RU20",
+    price: 66500,
+    title: "AMD RADEON™ RX 6600 XT",
     thumbnail:
-      "img/dream-machine-laptop.png",
-    description: "• ГАРАНТИЯ: 1 ГОД <br> • ТИП МАТРИЦЫ: IPS <br>• ПРОЦЕССОР: INTEL COTE I5 11400H <br>• ВИДЕОАДАПТЕР GEFORCE RTX 3050 4GB    <br>• ДИАГОНАЛЬ: 15,6' ДЮЙМОВ<br>• РАЗРЕШЕНИЕ: FULL HD [1920X1080]    <br>• RAM: 16GB SO-DIMM DDR4"
+      "img/rx6600xt 1.png",
+    description: "• Модель GPU	AMD Radeon RX 6600 XT <br> • Объем памяти	8 ГБ <br>• Тип памяти	GDDR6 <br>• Разрядность шины	128 бит <br>• Частота работы GPU	2589 МГц <br>• Частота работы памяти	16000 МГц"
   },
   {
     id: 2,
     category_id: 8,
-    price: 80000,
-    title: "15.6' НОУТБУК ASUS TUF GAMING FX506LH-HN004",
+    price: 5500,
+    title: "ТВЕРДОТЕЛЬНЫЙ НАКОПИТЕЛЬ SSD KINGSPEC M.2 512GB",
     thumbnail:
-      "img/tug-gaming.png",
-      description: "• ГАРАНТИЯ: 1 ГОД <br> • ТИП МАТРИЦЫ: IPS<br>• ПРОЦЕССОР: INTEL COTE I5 10300H<br>• ВИДЕОАДАПТЕР GEFORCE GTX 1650 4GB<br>• ДИАГОНАЛЬ: 15,6' ДЮЙМОВ<br>• РАЗРЕШЕНИЕ: FULL HD [1920X1080]<br>• RAM: 8GB SO-DIMM DDR4"
-  },
-  {
-    id: 3,
-    category_id: 8,
-    price: 89000,
-    title: "17.3' НОУТБУК MSI GF75 10UC-048XRU",
-    thumbnail:
-      "img/msi-laptop.png",
-      description: "• ГАРАНТИЯ: 1 ГОД <br> • ТИП МАТРИЦЫ: IPS <br> • ПРОЦЕССОР: INTEL COTE I5 10500H <br> • ВИДЕОАДАПТЕР GEFORCE RTX a 4GB <br> • ДИАГОНАЛЬ: 17,3' ДЮЙМОВ<br> • РАЗРЕШЕНИЕ: FULL HD [1920X1080]<br> • RAM: 8GB SO-DIMM DDR4"
+      "img/ssd.png",
+      description: "• Объем: 512 ГБ <br> • Форм-фактор: M.2 / 2280 / <br>• Интерфейс: M.2 PCI-E 3.0 4x <br>• Внешняя скорость записи: 1000 МБ/с  <br>• Внешняя скорость считывания: 1500 МБ/с<br>• РАЗРЕШЕНИЕ: FULL HD [1920X1080]    <br>• Гарантия производителя: 5 лет",
   }
 ];
 

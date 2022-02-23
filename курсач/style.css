@@ -186,6 +186,29 @@ main{
     transition: all 1s;
 }
 
+.laptop{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    background: linear-gradient(270deg, #000000 30.4%, #FC0000 50.73%, #000000 71.92%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor:default;
+    margin-top: 25px;
+    padding-bottom: 25px;
+    background-blend-mode: darken;
+
+}
+
 .product-card {
     width: 421px;
     height: 673px;
@@ -197,6 +220,13 @@ main{
     margin-top: 40px;
     justify-content: space-around;
     background-color: #fff;
+    transition: all 1s;
+}
+
+.product-card:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+
 }
 
 .container{
@@ -287,3 +317,11 @@ hr{
     color: #000000;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    pointer-events: none;
+    }
